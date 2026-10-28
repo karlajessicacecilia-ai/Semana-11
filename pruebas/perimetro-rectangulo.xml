@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:geo="http://practica.uvm.mx/geometria">
+  <soap:Body>
+    <geo:PerimetroRectanguloRequest>
+      <base>8</base>
+      <altura>5</altura>
+    </geo:PerimetroRectanguloRequest>
+  </soap:Body>
+</soap:Envelope>
